@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import { Grid, withStyles, Paper, Typography } from 'material-ui';
+import ArticleList from './components/ArticleList';
 const styles = theme => ({
   root: {
     marginTop: 50,
@@ -23,7 +24,7 @@ class App extends Component {
             sldjfldfjlsd
           </Grid>
           <Grid className={classes.list} item xs={12} sm={12} md={7}>
-            dsfsdfsdf
+            <ArticleList/>
           </Grid>
         </Grid>
       </div>
