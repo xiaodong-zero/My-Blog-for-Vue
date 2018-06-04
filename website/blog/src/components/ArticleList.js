@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardHeader, Avatar, IconButton, CardMedia, CardContent, CardActions, Collapse, Typography, withStyles, Menu, MenuItem } from 'material-ui'
+import { Card, CardHeader, Avatar, IconButton, CardContent, CardActions, Collapse, Typography, withStyles, Menu, MenuItem } from 'material-ui'
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';

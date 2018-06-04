@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-import { Grid, withStyles, Paper, Typography } from 'material-ui';
+import { Grid, withStyles } from 'material-ui';
 import ArticleList from './components/ArticleList';
 const styles = theme => ({
   root: {
